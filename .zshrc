@@ -111,6 +111,7 @@ alias jl="jupyter-lab"
 alias jn="jupyter notebook"
 alias act="conda activate"
 alias dact="conda deactivate"
+alias vjax="source ~/venv_jax/bin/activate"
 
 # source /home/duskybomb/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
