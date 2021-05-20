@@ -115,6 +115,9 @@ alias vjax="source ~/venv_jax/bin/activate"
 alias supext="source ~/Work/envs/dev-extractor/bin/activate"
 alias supgui="source ~/Work/envs/dev-gui/bin/activate"
 alias supadd="source ~/Work/envs/dev-address/bin/activate"
+alias python="python3"
+alias pip="pip3"
+
 # source /home/duskybomb/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export TERM=xterm-256color
