@@ -112,7 +112,9 @@ alias jn="jupyter notebook"
 alias act="conda activate"
 alias dact="conda deactivate"
 alias vjax="source ~/venv_jax/bin/activate"
-
+alias supext="source ~/Work/envs/dev-extractor/bin/activate"
+alias supgui="source ~/Work/envs/dev-gui/bin/activate"
+alias supadd="source ~/Work/envs/dev-address/bin/activate"
 # source /home/duskybomb/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export TERM=xterm-256color
