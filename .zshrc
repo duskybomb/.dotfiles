@@ -115,6 +115,7 @@ alias vjax="source ~/venv_jax/bin/activate"
 alias supext="source ~/Work/envs/dev-extractor/bin/activate"
 alias supgui="source ~/Work/envs/dev-gui/bin/activate"
 alias supadd="source ~/Work/envs/dev-address/bin/activate"
+alias supdata="source ~/Work/envs/dev-data/bin/activate"
 alias python="python3"
 alias pip="pip3"
 
