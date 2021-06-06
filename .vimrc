@@ -15,7 +15,6 @@ Plugin 'vim-scripts/indentpython.vim'
 Bundle 'Valloric/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
-Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
@@ -145,14 +144,7 @@ set encoding=utf-8
 let python_highlight_all=1
 syntax on
 
-if has('gui_running')
-  set background=dark
-  colorscheme solarized
-else
-  colorscheme zenburn
-endif
-
-call togglebg#map("<F5>")
+colorscheme onehalfdark
 
 set clipboard=unnamedplus
 
