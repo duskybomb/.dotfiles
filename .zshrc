@@ -116,8 +116,10 @@ alias supext="source ~/Work/envs/dev-extractor/bin/activate"
 alias supgui="source ~/Work/envs/dev-gui/bin/activate"
 alias supadd="source ~/Work/envs/dev-address/bin/activate"
 alias supdata="source ~/Work/envs/dev-data/bin/activate"
+alias supmatch="source ~/Work/envs/dev-match/bin/activate"
 alias python="python3"
 alias pip="pip3"
+alias speedtest="~/Downloads/speedtest"
 
 # source /home/duskybomb/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
