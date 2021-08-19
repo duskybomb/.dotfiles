@@ -112,20 +112,23 @@ alias jn="jupyter notebook"
 alias act="conda activate"
 alias dact="conda deactivate"
 alias vjax="source ~/venv_jax/bin/activate"
-alias supext="source ~/Work/envs/dev-extractor/bin/activate"
-alias supgui="source ~/Work/envs/dev-gui/bin/activate"
-alias supadd="source ~/Work/envs/dev-address/bin/activate"
-alias supdata="source ~/Work/envs/dev-data/bin/activate"
-alias supmatch="source ~/Work/envs/dev-match/bin/activate"
+alias supext="source /hdd/Work/envs/dev-extractor/bin/activate"
+alias supgui="source /hdd/Work/envs/dev-gui/bin/activate"
+alias supadd="source /hdd/Work/envs/dev-address/bin/activate"
+alias supdata="source /hdd/Work/envs/dev-data/bin/activate"
+alias supmatch="source /hdd/Work/envs/dev-match/bin/activate"
+alias suporder="source /hdd/Work/envs/dev-ordercheck/bin/activate"
+alias pygen="source ~/general/bin/activate"
 alias python="python3"
 alias pip="pip3"
-alias speedtest="~/Downloads/speedtest"
+alias speedtest="/hdd/Downloads/speedtest"
 
 # source /home/duskybomb/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export TERM=xterm-256color
 
 export PATH=$PATH:/usr/local/go/bin
+eval "$(rbenv init -)"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
