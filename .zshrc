@@ -112,38 +112,23 @@ alias jn="jupyter notebook"
 alias act="conda activate"
 alias dact="conda deactivate"
 alias vjax="source ~/venv_jax/bin/activate"
-alias supext="source /hdd/Work/envs/dev-extractor/bin/activate"
-alias supgui="source /hdd/Work/envs/dev-gui/bin/activate"
-alias supadd="source /hdd/Work/envs/dev-address/bin/activate"
-alias supdata="source /hdd/Work/envs/dev-data/bin/activate"
-alias supmatch="source /hdd/Work/envs/dev-match/bin/activate"
-alias suporder="source /hdd/Work/envs/dev-ordercheck/bin/activate"
+alias supext="source ~/Work/envs/dev-extractor/bin/activate"
+alias supgui="source ~/Work/envs/dev-gui/bin/activate"
+alias supadd="source ~/Work/envs/dev-address/bin/activate"
+alias supdata="source ~/Work/envs/dev-data/bin/activate"
+alias supmatch="source ~/Work/envs/dev-match/bin/activate"
+alias suporder="source ~/Work/envs/dev-ordercheck/bin/activate"
 alias pygen="source ~/general/bin/activate"
-alias python="python3"
+alias python="python3.9"
 alias pip="pip3"
 alias speedtest="/hdd/Downloads/speedtest"
+alias tmux="tmux -u"
 
 # source /home/duskybomb/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export TERM=xterm-256color
 
 export PATH=$PATH:/usr/local/go/bin
-eval "$(rbenv init -)"
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/duskybomb/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/duskybomb/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/duskybomb/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/duskybomb/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
