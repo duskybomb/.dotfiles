@@ -6,3 +6,8 @@ tmux_conf_theme_left_separator_main='\uE0B0'
 tmux_conf_theme_left_separator_sub='\uE0B1'
 tmux_conf_theme_right_separator_main='\uE0B2'
 tmux_conf_theme_right_separator_sub='\uE0B3'
+
+
+set -sg escape-time 5 # fix vim esc delay
+set -g default-terminal "screen-256color" # ensures vim uses right $TERM color, default is "screen"
+set -ga terminal-overrides ",*256col*:Tc" # fixes vim reproducing slightly wrong colors in tmux

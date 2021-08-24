@@ -123,6 +123,7 @@ alias python="python3.9"
 alias pip="pip3"
 alias speedtest="/hdd/Downloads/speedtest"
 alias tmux="tmux -u"
+alias vim="nvim"
 
 # source /home/duskybomb/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
