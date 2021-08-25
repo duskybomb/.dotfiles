@@ -1,0 +1,18 @@
+[/]
+arc-menu-placement='Panel'
+available-placement=[true, false, false]
+custom-menu-button-icon-size=14.0
+disable-hotkey-onkeyrelease=true
+menu-button-appearance='None'
+menu-hotkey='Custom'
+menu-keybinding=['<Primary>space']
+menu-keybinding-text='<Ctrl>space'
+menu-layout='Runner'
+pinned-app-list=['Firefox Web Browser', '', 'firefox.desktop', 'Terminal', '', 'org.gnome.Terminal.desktop', 'ArcMenu Settings', 'ArcMenu_ArcMenuIcon', 'gnome-extensions prefs arcmenu@arcmenu.com']
+position-in-panel='Center'
+prefs-visible-page=0
+recently-installed-apps=['blueman-manager.desktop']
+runner-position='Centered'
+runner-show-frequent-apps=true
+runner-use-theme-gap=true
+show-activities-button=false
