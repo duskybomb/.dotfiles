@@ -120,6 +120,7 @@ alias venv-tm="source ~/Work/envs/dev-match/bin/activate"
 alias venv-order="source ~/Work/envs/dev-ordercheck/bin/activate"
 alias venv-eagle="source ~/Work/envs/dev-eagle/bin/activate"
 alias venv-base="source ~/general/bin/activate"
+alias venv-dirty="source ~/dirtyenv/bin/activate"
 alias python="python3.9"
 alias pip="pip3"
 alias speedtest="/hdd/Downloads/speedtest"
@@ -131,7 +132,6 @@ alias vim="nvim"
 export TERM=xterm-256color
 
 export PATH=$PATH:/usr/local/go/bin
-
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
