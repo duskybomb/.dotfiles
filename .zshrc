@@ -75,7 +75,7 @@ DISABLE_LS_COLORS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sudo zsh-completions zsh-autosuggestions colorize zsh_reload vi-mode virtualenv)
+plugins=(git sudo zsh-completions zsh-autosuggestions colorize vi-mode virtualenv)
 
 autoload -U compinit && compinit
 source $ZSH/oh-my-zsh.sh

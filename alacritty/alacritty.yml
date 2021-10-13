@@ -90,7 +90,7 @@ colors:
 #     cyan:       '#6B3062'
 #     white:      '#64526F'
 
-background_opacity: 0.9
+background_opacity: 0.95
 
 font:
   # Normal (roman) font face
